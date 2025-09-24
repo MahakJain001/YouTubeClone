@@ -1,0 +1,49 @@
+.rps-container {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f9ff;
+  min-height: 100vh; 
+}
+
+.rps-options {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 80px 0;
+}
+
+.rps-option {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rps-option:hover {
+  transform: scale(1.1);
+}
+
+.emoji {
+  font-size: 120px;
+}
+
+.rps-option p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.result {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.outcome {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.score {
+  font-size: 18px;
+  color: #555;
+}
